@@ -1,0 +1,43 @@
+.kvadrat{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: rgb(42, 26, 102);
+    float: left;
+    }
+.kvadrat0{ width: 220px;
+    height: 200px;
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/09/Cool-High-Resolution-Wallpaper-1920x1080-640x360.jpg);
+    background-repeat:  no-repeat; 
+    background-position: center;
+    background-size: 220px;
+    position: absolute;
+    /z-index: -1;
+    margin-left: -10px;
+    }
+.kvadrat2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(81, 255, 0);
+    color: rgb(42, 26, 102);
+    float: left;
+    margin-left: 50px;
+}
+.kvadrat3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(47, 0, 255);
+    color: rgb(42, 26, 102);
+    float: left;
+margin-top: 50px  
+}
+.kvadrat4{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(108, 104, 121);
+            color: rgb(42, 26, 102); 
+            float: left;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+   
