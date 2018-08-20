@@ -1,0 +1,46 @@
+/* https://www.w3schools.com/howto/howto_css_clearfix.asp */
+.clearfix::after {
+    content: "";
+    clear: both; /* !!!!! */
+    display: table; 
+}
+
+.squre {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.squre.squre-1 {
+    background-color: red;
+}
+.squre.squre-1 .child {
+    width: 220px;
+    height: 200px;
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/09/Cool-High-Resolution-Wallpaper-1920x1080-640x360.jpg);
+    background-repeat:  no-repeat; 
+    background-position: center center;
+    background-size: 220px;
+    position: absolute;
+    margin-left: -10px;
+}
+.squre.squre-2 {
+    background-color: rgb(81, 255, 0);
+}
+.squre.squre-3 {
+    background-color: rgb(47, 0, 255);
+
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/09/Cool-High-Resolution-Wallpaper-1920x1080-640x360.jpg);
+    background-repeat:  no-repeat; 
+    background-position: center center;
+    background-size: cover; /* !!!!! */
+}
+.squre.squre-4 {
+    background-color: rgb(108, 104, 121);
+
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/09/Cool-High-Resolution-Wallpaper-1920x1080-640x360.jpg);
+    background-repeat:  no-repeat; 
+    background-position: center center;
+    background-size: contain; /* !!!!! */
+}
